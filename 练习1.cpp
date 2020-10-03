@@ -1,4 +1,4 @@
-#include<iostream>
+/*#include<iostream>
 #include <opencv2/opencv.hpp>
 #include<opencv2/highgui.hpp>
 using namespace std;
@@ -15,4 +15,4 @@ int main() {
 	imshow("green", G);
 	imshow("original Mat", src_color);
 	waitKey(0);
-}
+}*/

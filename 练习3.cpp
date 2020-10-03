@@ -1,4 +1,4 @@
-#include<iostream>
+/*#include<iostream>
 #include <opencv2/opencv.hpp>
 #include<opencv2/highgui.hpp>
 using namespace std;
@@ -20,4 +20,4 @@ int main() {
 	line(dispMat, pt1, pt, CV_RGB(255, 0, 0), 2, 8, 0);
 	imshow("dispMat", dispMat);
 	waitKey(0);
-}
+}*/
