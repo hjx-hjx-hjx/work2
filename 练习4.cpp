@@ -15,7 +15,7 @@ int main() {
 	for (int i = 0; i < height; i++) {
 		for (int j = 0; j < width; j++) {
 			n++;
-			histgram[dispMat.at<uchar>(i,j)]++;
+			histgram[dispMat.at<uchar>(i,j)]++;//将灰度值赋值给了数组
 		}
 	}
 	for (int i = 0; i < 256; i++) {
@@ -23,7 +23,7 @@ int main() {
 		histgram[i] = histgram[i] * 4000;
 		cout << histgram[i]<<endl;
 	}
-	Mat image(255, 255, CV_8UC3,cv::Scalar(0,0,0));
+	Mat image(255, 255, CV_8UC3,cv::Scalar(0,0,0));//声明一个空白图片
 
 	for (int longs = 0; longs < 255; longs++)
 	{
